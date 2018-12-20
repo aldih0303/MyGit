@@ -6,7 +6,7 @@ body{
  background-color:#666666;
 }
 #container{
- width:700px;
+ width:800px;
  margin:auto;
  background-color:#000000;
  border-left:5px solid #FF9933;
@@ -76,9 +76,8 @@ background-color: #000000;
 margin-top:10px;
 position: relative;
 }
-footer p{
+#footer p{
  color: :#FFFFFF;
- position: absolute;
  bottom: 10px;
  left: 350px;
 }
@@ -98,4 +97,32 @@ img{
 main p{
 	font-size: 20pt/1.0 serif;
 	color:#ccffff;
+}
+label{
+	font-size: 18pt;
+	color: white;
+}
+@media (max-width: 720px){
+	body{
+	 background-color:#666666;
+	}
+	#container{
+ 	width:auto;
+ 	margin:auto;
+ 	background-color:#000000;
+ 	border-left:5px solid #FF9933;
+ 	border-right:5px solid #FF9933;
+	}
+}
+@media (min-width: 720px) and (max-width: 992px){
+	body{
+ background-color:#666666;
+}
+#container{
+ width:auto;
+ margin:auto;
+ background-color:#000000;
+ border-left:5px solid #FF9933;
+ border-right:5px solid #FF9933;
+}
 }
